@@ -1,0 +1,46 @@
+/* ============================================================
+   i. Image — тёмная тема
+   Активируется атрибутом data-theme="dark" на <html>
+   ============================================================ */
+
+[data-theme="dark"] {
+  --bg: #0a0a10;
+  --bg-soft: #121219;
+  --panel: #121219;
+  --panel-2: #16161f;
+  --stage: #08080d;
+  --stage-dot: rgba(255, 255, 255, 0.06);
+
+  --text: #eceaf4;
+  --dim: #9d9dab;
+  --muted: #5f5f6e;
+  --heading: #4c4c5a;
+
+  --border: #1e1e28;
+  --border-strong: #2c2c38;
+
+  --accent: #8b7bff;
+  --accent-2: #2ee0b0;
+  --accent-soft: rgba(139, 123, 255, 0.14);
+  --accent-2-soft: rgba(46, 224, 176, 0.14);
+  --grad: linear-gradient(120deg, #8b7bff 0%, #a99bff 42%, #2ee0b0 100%);
+  --danger: #ff5a60;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow: 0 22px 48px -26px rgba(0, 0, 0, 0.85);
+
+  color-scheme: dark;
+}
+
+[data-theme="dark"] ::selection { background: var(--accent); color: #0a0a10; }
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.16); border-color: var(--bg); background-clip: padding-box; }
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.28); background-clip: padding-box; }
+
+[data-theme="dark"] .switch__dot { background: #dfe; }
+[data-theme="dark"] input[type="range"] { background: #2c2c38; }
+[data-theme="dark"] kbd { background: #1a1a24; }
+[data-theme="dark"] .tab.is-active { color: #0a0a10; }
+[data-theme="dark"] .chip.is-active { color: #0a0a10; }
+[data-theme="dark"] .btn--primary { color: #0a0a10; }
+[data-theme="dark"] .dropzone { background: radial-gradient(circle at 50% 0%, var(--accent-soft), transparent 60%), var(--panel); }

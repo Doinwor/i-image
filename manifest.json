@@ -1,0 +1,28 @@
+{
+  "name": "i. Image — редактор изображений",
+  "short_name": "i. Image",
+  "description": "Редактор, конвертер и компрессор изображений прямо в браузере. Файлы не покидают устройство.",
+  "lang": "ru",
+  "dir": "ltr",
+  "start_url": "./app.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f6f6f4",
+  "theme_color": "#6c5ce7",
+  "categories": ["photo", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
